@@ -1,4 +1,5 @@
 today=`date +%Y%m%d`
-git commit -a -m "$today $1"
+git add --all
+git commit -m "$today $1"
 git push
 
