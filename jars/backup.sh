@@ -1,0 +1,12 @@
+cp hbase-client.jar         hbase-client.jar.bak
+cp hbase-common.jar         hbase-common.jar.bak
+cp hbase-examples.jar       hbase-examples.jar.bak
+cp hbase-hadoop2-compat.jar hbase-hadoop2-compat.jar.bak
+cp hbase-hadoop-compat.jar  hbase-hadoop-compat.jar.bak
+cp hbase-it.jar             hbase-it.jar.bak
+cp hbase-prefix-tree.jar    hbase-prefix-tree.jar.bak
+cp hbase-protocol.jar       hbase-protocol.jar.bak
+cp hbase-server.jar         hbase-server.jar.bak
+cp hbase-shell.jar          hbase-shell.jar.bak
+cp hbase-testing-util.jar   hbase-testing-util.jar.bak
+cp hbase-thrift.jar         hbase-thrift.jar.bak
