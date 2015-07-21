@@ -1,0 +1,28 @@
+-rw-r--r-- 1 root root  1007076 Nov 19  2014 hbase-client-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       44 Nov 19  2014 hbase-client.jar -> hbase-client-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root   446989 Nov 19  2014 hbase-common-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root   173488 Nov 19  2014 hbase-common-0.98.4.2.2.0.0-2041-hadoop2-tests.jar
+lrwxrwxrwx 1 root root       44 Nov 19  2014 hbase-common.jar -> hbase-common-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root   106059 Nov 19  2014 hbase-examples-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       46 Nov 19  2014 hbase-examples.jar -> hbase-examples-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root    73259 Nov 19  2014 hbase-hadoop2-compat-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       52 Nov 19  2014 hbase-hadoop2-compat.jar -> hbase-hadoop2-compat-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root    32489 Nov 19  2014 hbase-hadoop-compat-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       51 Nov 19  2014 hbase-hadoop-compat.jar -> hbase-hadoop-compat-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root    12438 Nov 19  2014 hbase-it-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root   395123 Nov 19  2014 hbase-it-0.98.4.2.2.0.0-2041-hadoop2-tests.jar
+lrwxrwxrwx 1 root root       40 Nov 19  2014 hbase-it.jar -> hbase-it-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root    98090 Nov 19  2014 hbase-prefix-tree-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       49 Nov 19  2014 hbase-prefix-tree.jar -> hbase-prefix-tree-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root  3881893 Nov 19  2014 hbase-protocol-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       46 Nov 19  2014 hbase-protocol.jar -> hbase-protocol-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root  3574931 Nov 19  2014 hbase-server-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root  4207616 Nov 19  2014 hbase-server-0.98.4.2.2.0.0-2041-hadoop2-tests.jar
+lrwxrwxrwx 1 root root       44 Nov 19  2014 hbase-server.jar -> hbase-server-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root    12600 Nov 19  2014 hbase-shell-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       43 Nov 19  2014 hbase-shell.jar -> hbase-shell-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root    11245 Nov 19  2014 hbase-testing-util-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       50 Nov 19  2014 hbase-testing-util.jar -> hbase-testing-util-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root  2357599 Nov 19  2014 hbase-thrift-0.98.4.2.2.0.0-2041-hadoop2.jar
+lrwxrwxrwx 1 root root       44 Nov 19  2014 hbase-thrift.jar -> hbase-thrift-0.98.4.2.2.0.0-2041-hadoop2.jar
+-rw-r--r-- 1 root root    43470 Nov 19  2014 ranger-hbase-plugin-0.4.0.2.2.0.0-2041.jar
