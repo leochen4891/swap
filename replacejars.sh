@@ -1,4 +1,4 @@
-HBASE_LIB="/usr/hdp/2.2.0.0-2041/hbase/lib/test"
+HBASE_LIB="/usr/hdp/2.2.0.0-2041/hbase/lib"
 SOURCE_JAR_PATH="ubuntu@100.80.16.77:/home/ubuntu/github/swap/jars"
 JAR_FILES="hbase-client.jar
 hbase-common.jar        
@@ -19,6 +19,6 @@ do
 	sudo rm -f $HBASE_LIB/$file
 done
 
-sudo scp $SOURCE_JAR_PATH/*.jar .
+sudo scp $SOURCE_JAR_PATH/*.jar $HBASE_LIB
 
 
