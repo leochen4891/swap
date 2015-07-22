@@ -1,4 +1,4 @@
-HBASE_LIB="/usr/hdp/2.2.0.0-2041/hbase/lib/test"
+HBASE_LIB="/usr/hdp/2.2.0.0-2041/hbase/lib"
 JAR_FILES="hbase-client.jar
 hbase-common.jar        
 hbase-examples.jar      
