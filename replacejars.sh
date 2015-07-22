@@ -11,7 +11,8 @@ hbase-protocol.jar
 hbase-server.jar        
 hbase-shell.jar         
 hbase-testing-util.jar  
-hbase-thrift.jar"
+hbase-thrift.jar
+htrace-core-3.0.4.jar"
 
 for file in $JAR_FILES
 do
