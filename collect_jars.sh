@@ -15,6 +15,8 @@ ls -alF $HBASE_HOME/hbase-server/target/hbase-server-2.0.0-SNAPSHOT.jar
 ls -alF $HBASE_HOME/hbase-shell/target/hbase-shell-2.0.0-SNAPSHOT.jar
 ls -alF $HBASE_HOME/hbase-testing-util/target/hbase-testing-util-2.0.0-SNAPSHOT.jar
 ls -alF $HBASE_HOME/hbase-thrift/target/hbase-thrift-2.0.0-SNAPSHOT.jar
+# some extra libs 
+ls -alF /home/leochen4891/hadoop-2.6.0/share/hadoop/common/lib/htrace-core-3.0.4.jar
 
 cp $HBASE_HOME/hbase-client/target/hbase-client-2.0.0-SNAPSHOT.jar                  $TARGET_FOLDER/hbase-client.jar
 cp $HBASE_HOME/hbase-common/target/hbase-common-2.0.0-SNAPSHOT.jar                  $TARGET_FOLDER/hbase-common.jar
@@ -28,6 +30,8 @@ cp $HBASE_HOME/hbase-server/target/hbase-server-2.0.0-SNAPSHOT.jar              
 cp $HBASE_HOME/hbase-shell/target/hbase-shell-2.0.0-SNAPSHOT.jar                    $TARGET_FOLDER/hbase-shell.jar
 cp $HBASE_HOME/hbase-testing-util/target/hbase-testing-util-2.0.0-SNAPSHOT.jar      $TARGET_FOLDER/hbase-testing-util.jar
 cp $HBASE_HOME/hbase-thrift/target/hbase-thrift-2.0.0-SNAPSHOT.jar                  $TARGET_FOLDER/hbase-thrift.jar
+cp /home/leochen4891/hadoop-2.6.0/share/hadoop/common/lib/htrace-core-3.0.4.jar     $TARGET_FOLDER/htrace-core-3.0.4.jar
+
 
 #cp $HBASE_HOME/hbase-checkstyle/target/hbase-checkstyle-2.0.0-SNAPSHOT.jar hbase-checkstyle.jar
 #cp $HBASE_HOME/hbase-rest/target/hbase-rest-2.0.0-SNAPSHOT.jar hbase-rest.jar
