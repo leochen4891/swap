@@ -1,18 +1,24 @@
 HBASE_LIB="/usr/hdp/2.2.0.0-2041/hbase/lib"
 SOURCE_JAR_PATH="ubuntu@100.80.16.77:/home/ubuntu/github/swap/jars"
-JAR_FILES="hbase-client.jar
-hbase-common.jar        
-hbase-examples.jar      
+JAR_FILES="
+hbase-checkstyle.jar
+hbase-server.jar
+hbase-it.jar
+hbase-protocol.jar
+hbase-rest.jar
+hbase-common.jar
+hbase-annotations.jar
+hbase-prefix-tree.jar
+hbase-shaded-client.jar
+hbase-shaded-server.jar
+hbase-client.jar
 hbase-hadoop2-compat.jar
-hbase-hadoop-compat.jar 
-hbase-it.jar            
-hbase-prefix-tree.jar   
-hbase-protocol.jar      
-hbase-server.jar        
-hbase-shell.jar         
-hbase-testing-util.jar  
-hbase-thrift.jar
-htrace-core-3.0.4.jar"
+hbase-testing-util.jar
+hbase-procedure.jar
+hbase-examples.jar
+hbase-hadoop-compat.jar
+hbase-shell.jar
+hbase-thrift.jar"
 
 for file in $JAR_FILES
 do
