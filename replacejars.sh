@@ -1,8 +1,24 @@
-cd /usr/hdp/2.2.0.0-2041/hbase/lib
-sudo scp ubuntu@100.80.16.77:/home/ubuntu/github/swap/backup.sh .
-sudo scp ubuntu@100.80.16.77:/home/ubuntu/github/swap/scpjars.sh .
-sudo chmod +x backup.sh
-sudo chmod +x scpjars.sh
-sudo ./backup.sh
-sudo ./scpjars.sh
-ls -alF hbase*
+HBASE_LIB="/usr/hdp/2.2.0.0-2041/hbase/lib/test"
+SOURCE_JAR_PATH="ubuntu@100.80.16.77:/home/ubuntu/github/swap/jars"
+JAR_FILES="hbase-client.jar
+hbase-common.jar        
+hbase-examples.jar      
+hbase-hadoop2-compat.jar
+hbase-hadoop-compat.jar 
+hbase-it.jar            
+hbase-prefix-tree.jar   
+hbase-protocol.jar      
+hbase-server.jar        
+hbase-shell.jar         
+hbase-testing-util.jar  
+hbase-thrift.jar"
+
+for file in $JAR_FILES
+do
+	sudo cp -n $HBASE_LIB/$file $HBASE_LIB/$file.bak
+	sudo rm -f $HBASE_LIB/$file
+done
+
+sudo scp $SOURCE_JAR_PATH/*.jar .
+
+

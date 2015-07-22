@@ -1,12 +1,18 @@
-sudo mv hbase-client.jar.bak         hbase-client.jar         
-sudo mv hbase-common.jar.bak         hbase-common.jar         
-sudo mv hbase-examples.jar.bak       hbase-examples.jar       
-sudo mv hbase-hadoop2-compat.jar.bak hbase-hadoop2-compat.jar 
-sudo mv hbase-hadoop-compat.jar.bak  hbase-hadoop-compat.jar  
-sudo mv hbase-it.jar.bak             hbase-it.jar             
-sudo mv hbase-prefix-tree.jar.bak    hbase-prefix-tree.jar    
-sudo mv hbase-protocol.jar.bak       hbase-protocol.jar       
-sudo mv hbase-server.jar.bak         hbase-server.jar         
-sudo mv hbase-shell.jar.bak          hbase-shell.jar          
-sudo mv hbase-testing-util.jar.bak   hbase-testing-util.jar   
-sudo mv hbase-thrift.jar.bak         hbase-thrift.jar         
+HBASE_LIB="/usr/hdp/2.2.0.0-2041/hbase/lib/test"
+JAR_FILES="hbase-client.jar
+hbase-common.jar        
+hbase-examples.jar      
+hbase-hadoop2-compat.jar
+hbase-hadoop-compat.jar 
+hbase-it.jar            
+hbase-prefix-tree.jar   
+hbase-protocol.jar      
+hbase-server.jar        
+hbase-shell.jar         
+hbase-testing-util.jar  
+hbase-thrift.jar"
+
+for file in $JAR_FILES
+do
+	sudo mv $HBASE_LIB/$file.bak $HBASE_LIB/$file 
+done
