@@ -15,7 +15,7 @@ hbase-thrift.jar"
 
 for file in $JAR_FILES
 do
-	sudo cp -n $HBASE_LIB/$file $HBASE_LIB/$file.bak
+	sudo cp -l $HBASE_LIB/$file $HBASE_LIB/$file.bak
 	sudo rm -f $HBASE_LIB/$file
 done
 
