@@ -1,0 +1,287 @@
+    1  hbase shell
+    2  exit
+    3  2TzbVSweFYDXXG4XnxNk
+    4  scp ubuntu@100.80.16.77:/home/ubuntu/github/swap/replacejars.sh .
+    5  sudo ll /usr/hdp/2.2.0.0-2041/hbase/lib/hbase*
+    6  sudo ls -alF /usr/hdp/2.2.0.0-2041/hbase/lib/hbase*
+    7  sudo ls -alF /usr/hdp/2.2.0.0-2041/hbase/lib/hbase* | grep "->"
+    8  sudo ls -alF /usr/hdp/2.2.0.0-2041/hbase/lib/hbase* | grep "\->"
+    9  sudo ls -alF /usr/hdp/2.2.0.0-2041/hbase/lib/hbase*
+   10  ./replacejars.sh 
+   11  sudo ls -alF /usr/hdp/2.2.0.0-2041/hbase/lib/hbase*
+   12  exit
+   13  cat /etc/init.d/
+   14  ls /etc/init.d/
+   15  sudo service hbase-master restart
+   16  jps
+   17  sudo service hbase-master restart
+   18  jps
+   19  sudo service hbase-master stop
+   20  sudo service hbase-master start
+   21  scp ubuntu@100.80.16.77:/home/ubuntu/github/swap/restore.sh .
+   22  ./restore.sh 
+   23  sudo service hbase-master restart
+   24  jps
+   25  ps -elf | grep hbase
+   26  ll /usr/hdp/2.2.0.0-2041/hbase/lib/hbase*
+   27  ./replacejars.sh 
+   28  ll /usr/hdp/2.2.0.0-2041/hbase/lib/hbase*
+   29  ./restore.sh 
+   30  ./replacejars.sh 
+   31  ll /usr/hdp/2.2.0.0-2041/hbase/lib/hbase*
+   32  sudo service hbase-master stop
+   33  sudo service hbase-master start
+   34  dpkg -l | grep hadoop
+   35  locate htrace
+   36  sudo updatedb
+   37  scp ubuntu@100.80.16.77:/home/ubuntu/github/swap/replacejars.sh .
+   38  ./replacejars.sh 
+   39  sudo service hbase-master stop
+   40  sudo service hbase-master start
+   41  ls
+   42  echo $CLASSPATH
+   43  locate hbase-site.xml
+   44  hbase
+   45  hbase classpath
+   46  hbase classpath | grep htrace
+   47  sudo updatedb
+   48  locate htrace
+   49  cd /usr/hdp/2.2.0.0-2041/hbase/lib/
+   50  ll htrace*
+   51  mv htrace-core-2.04.jar htrace-core-2.04.jar.bak
+   52  sudo mv htrace-core-2.04.jar htrace-core-2.04.jar.bak
+   53  ll htrace*
+   54  mv htrace-core-3.0.4.jar htrace-core-2.04.jar
+   55  sudo mv htrace-core-3.0.4.jar htrace-core-2.04.jar
+   56  cd ~
+   57  cd /usr/hdp/2.2.0.0-2041/hbase/lib/
+   58  ll hbase*
+   59  sudo service hbase-master stop
+   60  sudo service hbase-master start
+   61  sudo mv htrace-core-2.04.jar.bak htrace-core-2.04.jar
+   62  ll
+   63  sudo service hbase-master restart
+   64  ll
+   65  ll hbase
+   66  ll hbase*
+   67  cd ~
+   68  ./restore.sh 
+   69  sudo service hbase-master restart
+   70  scp ubuntu@100.80.16.77:/home/ubuntu/github/swap/replacejars.sh .
+   71  ./replacejars.sh 
+   72  sudo service hbase-master stop
+   73  ./replacejars.sh 
+   74  sudo service hbase-master start
+   75  scp ubuntu@100.80.16.77:/home/ubuntu/github/swap/replacejars.sh .
+   76  ./replacejars.sh 
+   77  sudo service hbase-master restart
+   78  /usr/hdp/2.2.0.0-2041/hbase/lib/
+   79  cd /usr/hdp/2.2.0.0-2041/hbase/lib/
+   80  ll *trace*
+   81  ll hbase*
+   82  sudo service hbase-master restart
+   83  sudo service hbase-master stop
+   84  sudo service hbase-master start
+   85  locate htrace-core
+   86  ll htrace-core*
+   87  /usr/hdp/2.2.0.0-2041/hadoop/lib/htrace-core-3.0.4.jar
+   88  sudo ll 
+   89  sudo ls -alF /usr/hdp/2.2.0.0-2041/hadoop/lib/htr*
+   90  cd /
+   91  grep -R "htrace-core-2.04" .
+   92  sudo service hbase-master start
+   93  locate htrace
+   94  cd /usr/hdp/2.2.0.0-2041/hadoop/lib
+   95  sudo wget http://central.maven.org/maven2/org/cloudera/htrace/htrace/1.46/htrace-1.46.jar
+   96  sudo service hbase-master start
+   97  rm htrace-1.46.jar 
+   98  sudo rm htrace-1.46.jar 
+   99  sudo service hbase-master start
+  100  cd ..
+  101  cd hbase/
+  102  cd lib/
+  103  sudo wget http://central.maven.org/maven2/org/cloudera/htrace/htrace/1.46/htrace-1.46.jar
+  104  sudo service hbase-master start
+  105  rm htrace-1.46.jar 
+  106  sudo rm htrace-1.46.jar 
+  107  sudo wget http://central.maven.org/maven2/org/cloudera/htrace/htrace/1.50/htrace-1.50.jar
+  108  sudo service hbase-master start
+  109  ll hbase *
+  110  ll hbase*
+  111  mkdir bak
+  112  sudo mkdir bak
+  113  cd bak/
+  114  mv ../hbase-* .
+  115  sudo mv ../hbase-* .
+  116  ll
+  117  ~/replacejars.sh 
+  118  cd ..
+  119  ll hbase*
+  120  sudo service hbase-master start
+  121  locate phoenix
+  122  locate phoenix | grep jar
+  123  cd ..
+  124  l
+  125  cd phoenix/
+  126  l
+  127  ll
+  128  cd lib/
+  129  ll
+  130  l
+  131  ll
+  132  locate phoenix-core
+  133  cd /usr/hdp/current/
+  134  ll
+  135  cd hbase-master
+  136  ll
+  137  cd lib/
+  138  l
+  139  ll
+  140  ll hbase*
+  141  ll ph*
+  142  cd ../..
+  143  ll
+  144  cd hbase-master/lib/
+  145  ll
+  146  cd ../../
+  147  cd phoenix
+  148  ll
+  149  sudo updatedb
+  150  exit
+  151  grep -R "htrace-core" .
+  152  sudo grep -R "htrace-core" .
+  153  sudo updatedb
+  154  locate htrace-core
+  155  cd ~
+  156  ls
+  157  vi replacejars.sh 
+  158  ./restore.sh 
+  159  scp ubuntu@100.80.16.77:/home/ubuntu/github/swap/replacejars.sh .
+  160  ./replacejars.sh 
+  161  cd /usr/hdp/2.2.0.0-2041/hbase/lib/
+  162  mv htrace-core-2.04.jar htrace-core-2.04.jar.bak
+  163  sudo mv htrace-core-2.04.jar htrace-core-2.04.jar.bak
+  164  sudo mv htrace-core-3.0.4.jar.bak htrace-core-3.0.4.jar
+  165  cd ~/tmp
+  166  cd ~/temp/
+  167  ll
+  168  cd phoenix-4.4.0-HBase-1.0-bin/
+  169  ll
+  170  jar xf phoenix-core-4.4.0-HBase-1.0.jar 
+  171  ll
+  172  cd org/apache/phoenix/
+  173  ll
+  174  find | grep PhoenixIndexRpcSchedulerFactory 
+  175  cd ..
+  176  ll
+  177  rm -rf *
+  178  ll
+  179  wget http://repo1.maven.org/maven2/org/apache/phoenix/phoenix-core/4.3.0/phoenix-core-4.3.0.jar
+  180  ll
+  181  jar xf phoenix-core-4.3.0.jar 
+  182  ll
+  183  find | grep Factory
+  184  find | grep PhoenixIndexRpcSchedulerFactory
+  185  ls
+  186  find | grep PhoenixIndexRpcSchedulerFactory
+  187  cd ~
+  188  ./replacejars.sh 
+  189  exit
+  190  tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  191  less /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  192  tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  193  sudo service hbase-master stop
+  194  sudo service hbase-master restart
+  195  tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  196  less /etc/hbase/conf/hbase-site.xml 
+  197  sudo ssh bcpc-vm3
+  198  sudo service hbase-master restart
+  199  tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  200  sudo service hadoop-hdfs-namenode stop 
+  201  hdfs namenode -format
+  202  zookeeper-client rmr /hbase
+  203  sudo service hbase-master start
+  204  tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  205  sudo service hbase-master stop
+  206  sudo service hadoop-hdfs-namenode start
+  207  sudo service hbase-master start
+  208  tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  209  cd temp/
+  210  ll
+  211  vi go.sh
+  212  set 's/:/ /' go.sh
+  213  sed 's/:/ /' go.sh
+  214  sed 's/:/ /g' go.sh
+  215  for j in $(for j in $(sed 's/:/ /g' go.sh); do echo $j ; done | sort -u ) ; do jar -tf $j | grep -qi IndexedWALEditCodec && echo $j; done
+  216  for j in $(for j in $(sed 's/:/ /g' go.sh); do if [ -d $j ]; then find $j -file "*.jar"; else echo $j; fi ; done | sort -u ) ; do jar -tf $j | grep -qi IndexedWALEditCodec && echo $j; done
+  217  for j in $(for j in $(sed 's/:/ /g' go.sh); do if [ -d $j ]; then find $j -iname "*.jar"; else echo $j; fi ; done | sort -u ) ; do jar -tf $j | grep -qi IndexedWALEditCodec && echo $j; done
+  218  for j in $(for j in $(sed 's/:/ /g' go.sh); do if [ -d $j ]; then find $j -iname "*.jar"; else echo $j; fi ; done | sort -u ) ; do jar -tf $j | grep -qi IndexedWALEditCodec && echo $j & done
+  219  pkill -s0
+  220  jobs
+  221  for j in $(for j in $(sed 's/:/ /g' go.sh); do if [ -d $j ]; then find $j -iname "*.jar"; else echo $j; fi ; done | sort -u ) ; do jar -tf $j | grep -qi IndexedWALEditCodec && echo $j; done
+  222  for j in $(for j in $(sed 's/:/ /g' go.sh); do if [ -d $j ]; then find $j -iname "*.jar"; else echo $j; fi ; done | sort -u ) ; do jar -tf $j 2>&1 | grep -qi IndexedWALEditCodec && echo $j; done
+  223  jobs
+  224  hdfs dfs -ls /hbase
+  225  date
+  226  hdfs dfs -ls /hbase/WALs
+  227  sudo ssh bcpc-vm2
+  228  sudo scp go.sh bcpc-vm3:/tmp
+  229  sudo ssh bcpc-vm3
+  230  sudo ssh bcpc-vm4 'ps -ef|grep region'
+  231  sudo ssh bcpc-vm5 'ps -ef|grep region'
+  232  find /usr/hdp -iname "*phoenix*"
+  233  ls /usr/hdp/2.2.0.0-2041/phoenix/
+  234  ls /usr/hdp/current/phoenix-client
+  235  ls /usr/hdp/current/phoenix-client/phoenix-core-4.3.0.jar.bak 
+  236  sudo ssh bcpc-vm4 'find /usr/hdp -name "*phoenix*"'
+  237  sudo ssh bcpc-vm4 'ls /usr/hdp/current/phoenix-client/'
+  238  sudo ssh bcpc-vm5 'ls /usr/hdp/current/phoenix-client/'
+  239  sudo ssh bcpc-vm5 'ls /usr/hdp/current/phoenix'
+  240  sudo ssh bcpc-vm3 'ls /usr/hdp/current/phoenix'
+  241  hdfs dfs -ls /hbase
+  242  hdfs dfs -rmr /hbase
+  243  HADOOP_USER_NAME=hdfs hdfs dfs -rmr /hbase
+  244  zookeeper-client rmr /hbase
+  245  zookeeper-client ls /hbase
+  246  zookeeper-client ls /
+  247* sudo service hbase-master start & for i in `seq 3 
+  248  sudo service hbase-master stop & for i in `seq 3 5`; do sudo ssh bcpc-vm$i 'service hbase-regionserver stop'; done
+  249  sudo service hbase-master stop & for i in `seq 3 5`; do sudo ssh bcpc-vm$i 'service hbase-regionserver stop' & done
+  250  HADOOP_USER_NAME=hdfs hdfs dfs -rmr /hbase; zookeeper-client rmr /hbase
+  251  sudo service hbase-master stop & for i in `seq 3 5`; do sudo ssh bcpc-vm$i 'service hbase-regionserver stop' & done
+  252  export action="start"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done
+  253  tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  254  export action="stop"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done
+  255  HADOOP_USER_NAME=hdfs hdfs dfs -rmr /hbase; HADOOP_USER_NAME=hdfs hdfs dfs -mkdir /hbase; HADOOP_USER_NAME=hdfs hdfs dfs -chown hbase:hbase /hbase; zookeeper-client rmr /hbase
+  256  export action="start"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done ; tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  257  export action="stop"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done ; tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  258  find /usr/hdp -iname "*lmax*"
+  259  find /usr/hdp -iname "*disrup*"
+  260  mv find /usr/hdp -iname "*disrup*" find /usr/hdp -iname "*disrup*".bak
+  261  mv `find /usr/hdp -iname "*disrup*"` `find /usr/hdp -iname "*disrup*"`.bak
+  262  sudo mv `find /usr/hdp -iname "*disrup*"` `find /usr/hdp -iname "*disrup*"`.bak
+  263  ls
+  264  wget http://repo1.maven.org/maven2/com/lmax/disruptor/3.3.2/disruptor-3.3.2.jar
+  265  sudo mv disruptor-3.3.2.jar /usr/hdp/2.2.0.0-2041/hbase/lib/
+  266  export action="start"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done ; tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  267  export action="stop"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done ; tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  268  export action="stop"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done ; [ $action != "stop" ] && tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  269  HADOOP_USER_NAME=hdfs hdfs dfs -rmr /hbase; HADOOP_USER_NAME=hdfs hdfs dfs -mkdir /hbase; HADOOP_USER_NAME=hdfs hdfs dfs -chown hbase:hbase /hbase; zookeeper-client rmr /hbase
+  270  export action="start"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done ; [ $action != "stop" ] && tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  271  bg
+  272  sudo chef-client
+  273  hbase
+  274  hbase perfevaluator
+  275  hbase       --- /opt/jmxtrans/json/set1.json        2015-07-22 09:30:58.410914598 -0400
+  276  ps -ef|grep hbase
+  277  sudo netstat -nl4 --program | grep 28587
+  278  hbase org.apache.hadoop.hbase.PerformanceEvaluation --master=192.168.100.11:16000 randomWrite 10
+  279  which hbase
+  280  sudo ssh bcpc-vm3
+  281  hbase shell
+  282  sudo ssh bcpc-vm3
+  283  less /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  284  export action="stop"; sudo service hbase-master $action & for i in `seq 3 5`; do sudo ssh bcpc-vm$i "service hbase-regionserver ${action}" & done ; [ $action != "stop" ] && tail -f /var/log/hbase/hbase-hbase-master-bcpc-vm1.log 
+  285* HADOOP_USER_NAME=hdfs hdfs dfs -rmr /hbase; HADOOP_USER_NAME=hdfs hdfs dfs -mkdir /hbase; HADOOP_USER_NAME=hdfs hdfs dfs -chown hbase:hbase /hbase; zookeeper-client r
+  286  history
+  287  history > ~/hist.txt

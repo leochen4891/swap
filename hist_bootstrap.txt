@@ -1,0 +1,60 @@
+    1  cd chef-bcpc
+    2  ./nodessh.sh Test-Laptop 10.0.100.11 -
+    3  exit
+    4  cd chef-bcpc
+    5  ./cluster-assign-roles.sh Test-Laptop hadoop
+    6  ./nodessh.sh Test-Laptop 10.0.100.13 -
+    7  exit
+    8  ./nodessh.sh Test-Laptop 10.0.100.11 -
+    9  cd chef-bcpc
+   10  ./nodessh.sh Test-Laptop 10.0.100.11 -
+   11  ll
+   12  ./rolling
+   13  sudo updatedb
+   14  locate rolling
+   15  cd bin
+   16  ll
+   17  exit
+   18  cd chef-bcpc
+   19  grep -R "htrace-core" .
+   20  sudo grep -R "htrace-core" .
+   21  ./nodessh.sh Test-Laptop 10.0.100.11 -
+   22  cd cookbooks/bcpc-hadoop/recipes/
+   23  vi region_server.rb 
+   24  vi ../templates/default/hb_hbase-site.xml.erb 
+   25  vi hbase_master.rb 
+   26  cd ~/chef-bcpc
+   27  knife cookbook upload bcpc-hadoop 
+   28  sudo rm -rf .chef/syntax_check_cache/
+   29  knife cookbook upload bcpc-hadoop 
+   30  ./cluster-assign-roles.sh Test-Laptop hadoop
+   31  for i in 1 2 3 4 5: do ./nodessh.sh Test-Laptop 10.0.100.1$i 'apt-get purge --yes phoenix*' sudo & done 
+   32  for i in 1 2 3 4 5; do ./nodessh.sh Test-Laptop 10.0.100.1$i 'apt-get purge --yes phoenix*' sudo & done 
+   33  jobs
+   34  vi cookbooks/bcpc-hadoop/templates/default/hb_hbase-site.xml.erb 
+   35  find | grep assign
+   36  ./cluster-assign-roles.sh Test-Laptop hadoop
+   37  ./nodessh.sh Test-Laplop 10.0.100.11 -
+   38  ./nodessh.sh Test-Laptop 10.0.100.11 -
+   39  for i in 3 4 5: do ./nodessh.sh Test-Laptop 10.0.100.1$i 'service hbase-regionserver start' sudo & done 
+   40  for i in 3 4 5; do ./nodessh.sh Test-Laptop 10.0.100.1$i 'service hbase-regionserver start' sudo & done 
+   41  ./cluster-assign-roles.sh Test-Laptop hadoop
+   42  pkill -s0
+   43  ./cluster-assign-roles.sh Test-Laptop hadoop bcpc-hadoop-worker
+   44  for i in 3 4 5: do ./nodessh.sh Test-Laptop 10.0.100.1$i 'service hbase-regionserver stop' sudo & done 
+   45  for i in 3 4 5; do ./nodessh.sh Test-Laptop 10.0.100.1$i 'service hbase-regionserver stop' sudo & done 
+   46  for i in 1 2; do ./nodessh.sh Test-Laptop 10.0.100.1$i 'service hbase-master s' sudo & done 
+   47  jobs
+   48  job
+   49  jobs
+   50  for i in 3 4 5; do ./nodessh.sh Test-Laptop 10.0.100.1$i 'service hbase-regionserver start' sudo & done 
+   51  jobs
+   52  for i in 3 4 5; do ./nodessh.sh Test-Laptop 10.0.100.1$i 'service hbase-regionserver stop' sudo & done 
+   53  cd chef-bcpc
+   54  less cookbooks/bcpc/attributes/default.rb 
+   55  grep -R regions cookbooks/
+   56  less cookbooks/bcpc_jmxtrans/attributes/default.rb 
+   57  vi cookbooks/bcpc_jmxtrans/attributes/default.rb
+   58  knife cookbook upload bcpc_jmxtrans
+   59  ./nodessh.sh Test-Laptop 10.0.100.12 chef-client sudo
+   60  history > ~/hist_bootstrap.txt
