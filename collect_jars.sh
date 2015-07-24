@@ -1,5 +1,5 @@
 HBASE_HOME="/home/leochen4891/github/hbase"
-TARGET_FOLDER="./jars"
+TARGET_FOLDER="/home/leochen4891/github/swap/jars"
 
 rm $TARGET_FOLDER/*.jar
 
