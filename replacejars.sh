@@ -18,7 +18,9 @@ hbase-procedure.jar
 hbase-examples.jar
 hbase-hadoop-compat.jar
 hbase-shell.jar
-hbase-thrift.jar"
+hbase-thrift.jar
+htrace-core-2.04.jar
+netty-all-4.0.29.Final.jar"
 
 for file in $JAR_FILES
 do
