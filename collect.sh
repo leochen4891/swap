@@ -1,0 +1,21 @@
+cp ../hbase/hbase-prefix-tree/target/hbase-prefix-tree-2.0.0-SNAPSHOT.jar                   ./jars/hbase-prefix-tree.jar
+cp ../hbase/hbase-hadoop2-compat/target/hbase-hadoop2-compat-2.0.0-SNAPSHOT.jar             ./jars/hbase-hadoop2-compat.jar
+cp ../hbase/hbase-shaded/hbase-shaded-client/target/hbase-shaded-client-2.0.0-SNAPSHOT.jar  ./jars/hbase-shaded-client.jar
+cp ../hbase/hbase-shaded/hbase-shaded-server/target/hbase-shaded-server-2.0.0-SNAPSHOT.jar  ./jars/hbase-shaded-server.jar
+cp ../hbase/hbase-checkstyle/target/hbase-checkstyle-2.0.0-SNAPSHOT.jar                     ./jars/hbase-checkstyle.jar
+cp ../hbase/hbase-common/target/hbase-common-2.0.0-SNAPSHOT.jar                             ./jars/hbase-common.jar
+cp ../hbase/hbase-procedure/target/hbase-procedure-2.0.0-SNAPSHOT.jar                       ./jars/hbase-procedure.jar
+cp ../hbase/hbase-testing-util/target/hbase-testing-util-2.0.0-SNAPSHOT.jar                 ./jars/hbase-testing-util.jar
+cp ../hbase/hbase-resource-bundle/target/hbase-resource-bundle-2.0.0-SNAPSHOT.jar           ./jars/hbase-resource-bundle.jar
+cp ../hbase/hbase-hadoop-compat/target/hbase-hadoop-compat-2.0.0-SNAPSHOT.jar               ./jars/hbase-hadoop-compat.jar
+cp ../hbase/hbase-annotations/target/hbase-annotations-2.0.0-SNAPSHOT.jar                   ./jars/hbase-annotations.jar
+cp ../hbase/hbase-shell/target/hbase-shell-2.0.0-SNAPSHOT.jar                               ./jars/hbase-shell.jar
+cp ../hbase/hbase-examples/target/hbase-examples-2.0.0-SNAPSHOT.jar                         ./jars/hbase-examples.jar
+cp ../hbase/hbase-rest/target/hbase-rest-2.0.0-SNAPSHOT.jar                                 ./jars/hbase-rest.jar
+cp ../hbase/hbase-it/target/hbase-it-2.0.0-SNAPSHOT.jar                                     ./jars/hbase-it.jar
+cp ../hbase/hbase-protocol/target/hbase-protocol-2.0.0-SNAPSHOT.jar                         ./jars/hbase-protocol.jar
+cp ../hbase/hbase-spark/target/hbase-spark-2.0.0-SNAPSHOT.jar                               ./jars/hbase-spark.jar
+cp ../hbase/hbase-thrift/target/hbase-thrift-2.0.0-SNAPSHOT.jar                             ./jars/hbase-thrift.jar
+cp ../hbase/hbase-client/target/hbase-client-2.0.0-SNAPSHOT.jar                             ./jars/hbase-client.jar
+cp ../hbase/hbase-server/target/hbase-server-2.0.0-SNAPSHOT.jar                             ./jars/hbase-server.jar
+

@@ -1,5 +1,5 @@
-HBASE_HOME="/home/leochen4891/github/hbase"
-TARGET_FOLDER="/home/leochen4891/github/swap/jars"
+HBASE_HOME="/home/ubuntu/github/hbase"
+TARGET_FOLDER="/home/ubuntu/github/swap/jars"
 
 rm $TARGET_FOLDER/*.jar
 
@@ -56,3 +56,4 @@ cp $HBASE_HOME/hbase-thrift/target/hbase-thrift-2.0.0-SNAPSHOT.jar              
 #cp $HBASE_HOME/hbase-hadoop-compat/target/hbase-hadoop-compat-0.98.4-SNAPSHOT.jar             $TARGET_FOLDER/hbase-hadoop-compat.jar
 #cp $HBASE_HOME/hbase-shell/target/hbase-shell-0.98.4-SNAPSHOT.jar                             $TARGET_FOLDER/hbase-shell.jar
 #cp $HBASE_HOME/hbase-thrift/target/hbase-thrift-0.98.4-SNAPSHOT.jar                           $TARGET_FOLDER/hbase-thrift.jar
+
