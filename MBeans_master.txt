@@ -1,0 +1,504 @@
+MBean Found:
+Class Name:torg.apache.hadoop.metrics2.impl.MetricsSystemImpl
+Object Name:tHadoop:service=HBase,name=MetricsSystem,sub=Control
+****************************************
+MBean Found:
+Class Name:tMaster,sub=AssignmentManger
+Object Name:tHadoop:service=DataNode,name=Master,sub=AssignmentManger
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ZooKeeperServerBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1
+****************************************
+MBean Found:
+Class Name:tUgiMetrics
+Object Name:tHadoop:service=HBase,name=UgiMetrics
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryImpl
+Object Name:tjava.lang:type=Memory
+****************************************
+MBean Found:
+Class Name:tjavax.management.MBeanServerDelegate
+Object Name:tJMImplementation:type=MBeanServerDelegate
+****************************************
+MBean Found:
+Class Name:tJvmMetrics-1
+Object Name:tHadoop:service=NameNode,name=JvmMetrics-1
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.DataTreeBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=InMemoryDataTree
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=Server
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=Server
+****************************************
+MBean Found:
+Class Name:tsun.management.GarbageCollectorImpl
+Object Name:tjava.lang:type=GarbageCollector,name=PS MarkSweep
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$1
+Object Name:tjava.nio:type=BufferPool,name=mapped
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900008
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900007
+****************************************
+MBean Found:
+Class Name:tMetricsSystem,sub=Stats
+Object Name:tHadoop:service=HBase,name=MetricsSystem,sub=Stats
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.FSNamesystem
+Object Name:tHadoop:service=NameNode,name=FSNamesystemState
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900004
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900003
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900006
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900005
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900000
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Survivor Space
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900002
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryManagerImpl
+Object Name:tjava.lang:type=MemoryManager,name=CodeCacheManager
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900001
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=IPC
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=IPC
+****************************************
+MBean Found:
+Class Name:tJvmMetrics
+Object Name:tHadoop:service=HBase,name=JvmMetrics
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Old Gen
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.snapshot.SnapshotManager
+Object Name:tHadoop:service=NameNode,name=SnapshotInfo
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Perm Gen
+****************************************
+MBean Found:
+Class Name:tRpcDetailedActivityForPort42274
+Object Name:tHadoop:service=NameNode,name=RpcDetailedActivityForPort42274
+****************************************
+MBean Found:
+Class Name:tsun.management.RuntimeImpl
+Object Name:tjava.lang:type=Runtime
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$1
+Object Name:tjava.nio:type=BufferPool,name=direct
+****************************************
+MBean Found:
+Class Name:tNameNodeActivity
+Object Name:tHadoop:service=NameNode,name=NameNodeActivity
+****************************************
+MBean Found:
+Class Name:tRetryCache.NameNodeRetryCache
+Object Name:tHadoop:service=HBase,name=RetryCache.NameNodeRetryCache
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=Server-1
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=Server-1
+****************************************
+MBean Found:
+Class Name:tsun.management.HotSpotDiagnostic
+Object Name:tcom.sun.management:type=HotSpotDiagnostic
+****************************************
+MBean Found:
+Class Name:tsun.management.GarbageCollectorImpl
+Object Name:tjava.lang:type=GarbageCollector,name=PS Scavenge
+****************************************
+MBean Found:
+Class Name:tRpcDetailedActivityForPort46759
+Object Name:tHadoop:service=DataNode,name=RpcDetailedActivityForPort46759
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=WAL
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=WAL
+****************************************
+MBean Found:
+Class Name:tMaster,sub=IPC
+Object Name:tHadoop:service=DataNode,name=Master,sub=IPC
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=Code Cache
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=Replication
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=Replication
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$PlatformLoggingImpl
+Object Name:tjava.util.logging:type=Logging
+****************************************
+MBean Found:
+Class Name:tMaster,sub=Balancer
+Object Name:tHadoop:service=HBase,name=Master,sub=Balancer
+****************************************
+MBean Found:
+Class Name:tFSNamesystem
+Object Name:tHadoop:service=NameNode,name=FSNamesystem
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.FSNamesystem
+Object Name:tHadoop:service=NameNode,name=NameNodeInfo
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.datanode.DataNode
+Object Name:tHadoop:service=DataNode,name=DataNodeInfo
+****************************************
+MBean Found:
+Class Name:tStartupProgress
+Object Name:tHadoop:service=NameNode,name=StartupProgress
+****************************************
+MBean Found:
+Class Name:tRpcActivityForPort42274
+Object Name:tHadoop:service=NameNode,name=RpcActivityForPort42274
+****************************************
+MBean Found:
+Class Name:tJvmMetrics-2
+Object Name:tHadoop:service=DataNode,name=JvmMetrics-2
+****************************************
+MBean Found:
+Class Name:tMaster,sub=FileSystem
+Object Name:tHadoop:service=DataNode,name=Master,sub=FileSystem
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Eden Space
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=Regions
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=Regions
+****************************************
+MBean Found:
+Class Name:tDataNodeActivity-127.0.0.1-44841
+Object Name:tHadoop:service=DataNode,name=DataNodeActivity-127.0.0.1-44841
+****************************************
+MBean Found:
+Class Name:tcom.sun.management.UnixOperatingSystem
+Object Name:tjava.lang:type=OperatingSystem
+****************************************
+MBean Found:
+Class Name:tsun.management.CompilationImpl
+Object Name:tjava.lang:type=Compilation
+****************************************
+MBean Found:
+Class Name:tRpcActivityForPort46759
+Object Name:tHadoop:service=DataNode,name=RpcActivityForPort46759
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.NameNode
+Object Name:tHadoop:service=NameNode,name=NameNodeStatus
+****************************************
+MBean Found:
+Class Name:tMaster,sub=Server
+Object Name:tHadoop:service=DataNode,name=Master,sub=Server
+****************************************
+MBean Found:
+Class Name:tsun.management.ThreadImpl
+Object Name:tjava.lang:type=Threading
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetImpl
+Object Name:tHadoop:service=DataNode,name=FSDatasetState-null
+****************************************
+MBean Found:
+Class Name:tsun.management.ClassLoadingImpl
+Object Name:tjava.lang:type=ClassLoading
+****************************************
+MBean Found:
+Class Name:tRetryCache.NameNodeRetryCache-1
+Object Name:tHadoop:service=NameNode,name=RetryCache.NameNodeRetryCache-1
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.metrics2.impl.MetricsSystemImpl
+Object Name:tHadoop:service=HBase,name=MetricsSystem,sub=Control
+****************************************
+MBean Found:
+Class Name:tMaster,sub=AssignmentManger
+Object Name:tHadoop:service=DataNode,name=Master,sub=AssignmentManger
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ZooKeeperServerBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1
+****************************************
+MBean Found:
+Class Name:tUgiMetrics
+Object Name:tHadoop:service=HBase,name=UgiMetrics
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryImpl
+Object Name:tjava.lang:type=Memory
+****************************************
+MBean Found:
+Class Name:tjavax.management.MBeanServerDelegate
+Object Name:tJMImplementation:type=MBeanServerDelegate
+****************************************
+MBean Found:
+Class Name:tJvmMetrics-1
+Object Name:tHadoop:service=NameNode,name=JvmMetrics-1
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.DataTreeBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=InMemoryDataTree
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=Server
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=Server
+****************************************
+MBean Found:
+Class Name:tsun.management.GarbageCollectorImpl
+Object Name:tjava.lang:type=GarbageCollector,name=PS MarkSweep
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$1
+Object Name:tjava.nio:type=BufferPool,name=mapped
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900008
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900007
+****************************************
+MBean Found:
+Class Name:tMetricsSystem,sub=Stats
+Object Name:tHadoop:service=HBase,name=MetricsSystem,sub=Stats
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.FSNamesystem
+Object Name:tHadoop:service=NameNode,name=FSNamesystemState
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900004
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900003
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900006
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900005
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900000
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Survivor Space
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900002
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryManagerImpl
+Object Name:tjava.lang:type=MemoryManager,name=CodeCacheManager
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f687b67900001
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=IPC
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=IPC
+****************************************
+MBean Found:
+Class Name:tJvmMetrics
+Object Name:tHadoop:service=HBase,name=JvmMetrics
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Old Gen
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.snapshot.SnapshotManager
+Object Name:tHadoop:service=NameNode,name=SnapshotInfo
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Perm Gen
+****************************************
+MBean Found:
+Class Name:tRpcDetailedActivityForPort42274
+Object Name:tHadoop:service=NameNode,name=RpcDetailedActivityForPort42274
+****************************************
+MBean Found:
+Class Name:tsun.management.RuntimeImpl
+Object Name:tjava.lang:type=Runtime
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$1
+Object Name:tjava.nio:type=BufferPool,name=direct
+****************************************
+MBean Found:
+Class Name:tNameNodeActivity
+Object Name:tHadoop:service=NameNode,name=NameNodeActivity
+****************************************
+MBean Found:
+Class Name:tRetryCache.NameNodeRetryCache
+Object Name:tHadoop:service=HBase,name=RetryCache.NameNodeRetryCache
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=Server-1
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=Server-1
+****************************************
+MBean Found:
+Class Name:tsun.management.HotSpotDiagnostic
+Object Name:tcom.sun.management:type=HotSpotDiagnostic
+****************************************
+MBean Found:
+Class Name:tsun.management.GarbageCollectorImpl
+Object Name:tjava.lang:type=GarbageCollector,name=PS Scavenge
+****************************************
+MBean Found:
+Class Name:tRpcDetailedActivityForPort46759
+Object Name:tHadoop:service=DataNode,name=RpcDetailedActivityForPort46759
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=WAL
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=WAL
+****************************************
+MBean Found:
+Class Name:tMaster,sub=IPC
+Object Name:tHadoop:service=DataNode,name=Master,sub=IPC
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=Code Cache
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=Replication
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=Replication
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$PlatformLoggingImpl
+Object Name:tjava.util.logging:type=Logging
+****************************************
+MBean Found:
+Class Name:tMaster,sub=Balancer
+Object Name:tHadoop:service=HBase,name=Master,sub=Balancer
+****************************************
+MBean Found:
+Class Name:tFSNamesystem
+Object Name:tHadoop:service=NameNode,name=FSNamesystem
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.FSNamesystem
+Object Name:tHadoop:service=NameNode,name=NameNodeInfo
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.datanode.DataNode
+Object Name:tHadoop:service=DataNode,name=DataNodeInfo
+****************************************
+MBean Found:
+Class Name:tStartupProgress
+Object Name:tHadoop:service=NameNode,name=StartupProgress
+****************************************
+MBean Found:
+Class Name:tRpcActivityForPort42274
+Object Name:tHadoop:service=NameNode,name=RpcActivityForPort42274
+****************************************
+MBean Found:
+Class Name:tJvmMetrics-2
+Object Name:tHadoop:service=DataNode,name=JvmMetrics-2
+****************************************
+MBean Found:
+Class Name:tMaster,sub=FileSystem
+Object Name:tHadoop:service=DataNode,name=Master,sub=FileSystem
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Eden Space
+****************************************
+MBean Found:
+Class Name:tRegionServer,sub=Regions
+Object Name:tHadoop:service=DataNode,name=RegionServer,sub=Regions
+****************************************
+MBean Found:
+Class Name:tDataNodeActivity-127.0.0.1-44841
+Object Name:tHadoop:service=DataNode,name=DataNodeActivity-127.0.0.1-44841
+****************************************
+MBean Found:
+Class Name:tcom.sun.management.UnixOperatingSystem
+Object Name:tjava.lang:type=OperatingSystem
+****************************************
+MBean Found:
+Class Name:tsun.management.CompilationImpl
+Object Name:tjava.lang:type=Compilation
+****************************************
+MBean Found:
+Class Name:tRpcActivityForPort46759
+Object Name:tHadoop:service=DataNode,name=RpcActivityForPort46759
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.NameNode
+Object Name:tHadoop:service=NameNode,name=NameNodeStatus
+****************************************
+MBean Found:
+Class Name:tMaster,sub=Server
+Object Name:tHadoop:service=DataNode,name=Master,sub=Server
+****************************************
+MBean Found:
+Class Name:tsun.management.ThreadImpl
+Object Name:tjava.lang:type=Threading
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetImpl
+Object Name:tHadoop:service=DataNode,name=FSDatasetState-null
+****************************************
+MBean Found:
+Class Name:tsun.management.ClassLoadingImpl
+Object Name:tjava.lang:type=ClassLoading
+****************************************
+MBean Found:
+Class Name:tRetryCache.NameNodeRetryCache-1
+Object Name:tHadoop:service=NameNode,name=RetryCache.NameNodeRetryCache-1
+***************************************

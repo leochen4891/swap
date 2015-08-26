@@ -1,0 +1,136 @@
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ZooKeeperServerBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryImpl
+Object Name:tjava.lang:type=Memory
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.FSNamesystem
+Object Name:tHadoop:service=NameNode,name=NameNodeInfo
+****************************************
+MBean Found:
+Class Name:tjavax.management.MBeanServerDelegate
+Object Name:tJMImplementation:type=MBeanServerDelegate
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.datanode.DataNode
+Object Name:tHadoop:service=DataNode,name=DataNodeInfo
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.DataTreeBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=InMemoryDataTree
+****************************************
+MBean Found:
+Class Name:tsun.management.GarbageCollectorImpl
+Object Name:tjava.lang:type=GarbageCollector,name=PS MarkSweep
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$1
+Object Name:tjava.nio:type=BufferPool,name=mapped
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.namenode.FSNamesystem
+Object Name:tHadoop:service=NameNode,name=FSNamesystemState
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Survivor Space
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryManagerImpl
+Object Name:tjava.lang:type=MemoryManager,name=CodeCacheManager
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Eden Space
+****************************************
+MBean Found:
+Class Name:tcom.sun.management.UnixOperatingSystem
+Object Name:tjava.lang:type=OperatingSystem
+****************************************
+MBean Found:
+Class Name:tsun.management.CompilationImpl
+Object Name:tjava.lang:type=Compilation
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Old Gen
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=PS Perm Gen
+****************************************
+MBean Found:
+Class Name:tsun.management.RuntimeImpl
+Object Name:tjava.lang:type=Runtime
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.metrics2.impl.MetricsSystemImpl
+Object Name:tHadoop:service=NameNode,name=MetricsSystem,sub=Control
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$1
+Object Name:tjava.nio:type=BufferPool,name=direct
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f689a5d200000
+****************************************
+MBean Found:
+Class Name:torg.apache.hadoop.hdfs.server.datanode.FSDataset
+Object Name:tHadoop:service=DataNode,name=FSDatasetState-UndefinedStorageId-217511441
+****************************************
+MBean Found:
+Class Name:tsun.management.ThreadImpl
+Object Name:tjava.lang:type=Threading
+****************************************
+MBean Found:
+Class Name:tsun.management.HotSpotDiagnostic
+Object Name:tcom.sun.management:type=HotSpotDiagnostic
+****************************************
+MBean Found:
+Class Name:tsun.management.GarbageCollectorImpl
+Object Name:tjava.lang:type=GarbageCollector,name=PS Scavenge
+****************************************
+MBean Found:
+Class Name:tsun.management.ClassLoadingImpl
+Object Name:tjava.lang:type=ClassLoading
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f689a5d200008
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f689a5d200006
+****************************************
+MBean Found:
+Class Name:tsun.management.MemoryPoolImpl
+Object Name:tjava.lang:type=MemoryPool,name=Code Cache
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f689a5d200005
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f689a5d200004
+****************************************
+MBean Found:
+Class Name:tsun.management.ManagementFactoryHelper$PlatformLoggingImpl
+Object Name:tjava.util.logging:type=Logging
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f689a5d200003
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f689a5d200002
+****************************************
+MBean Found:
+Class Name:torg.apache.zookeeper.server.ConnectionBean
+Object Name:torg.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x14f689a5d200001
+****************************************
